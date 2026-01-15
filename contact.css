@@ -1,0 +1,91 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #dce6ef;
+        }
+
+        
+        header {
+            background-color: rgb(6, 6, 209);
+            color: white;
+            padding: 30px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    
+        main {
+            max-width: 600px;
+            background-color: white;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        form label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 90%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            background: #ccc;
+            font-size: 20px;
+        }
+
+        form input[type="submit"] {
+            margin-top: 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+        }
+
+        
+        footer {
+            background-color: #1c2cdb;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+        nav{
+            font-size: 25px;;
+        }

@@ -1,0 +1,122 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+
+        nav {
+            
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #3498db;
+            color: white;
+        }
+
+    
+        .form-box {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #eef3f7;
+            border-radius: 6px;
+        }
+
+        .form-box h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        header{
+            background-color: rgb(52, 52, 233);
+            color: white;
+            padding: 30px 0;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    
+    footer {
+        background: #0a11e3;
+        text-align: center;
+        padding: 30px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 0.9rem;
+        color: white;
+    }

@@ -1,0 +1,152 @@
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f2f4f8;
+        min-height:100vh;
+    }
+    
+
+    nav ul{
+        list-style:none;
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        padding:15px;
+    }
+
+    nav ul li a{
+        color:white;
+        text-decoration:none;
+        font-size:25px;
+        font-weight:bold;
+        padding:8px 14px;
+        border-radius:5px;
+    }
+
+  
+    nav ul li a:hover{
+            text-decoration:underline;
+        }
+
+
+    .feedback-form{
+        background:white;
+        max-width:600px;
+        margin:40px auto;
+        padding:30px;
+        border-radius:12px;
+        box-shadow:0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1{
+        text-align:center;
+        color:black
+        margin-bottom:10px;
+    }
+    header {
+            background:blue;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+    h2{
+        text-align:center;
+        color:#555;
+        font-size:20px;
+        margin-bottom:25px;
+        font-weight:normal;
+    }
+
+    .form-group{
+        margin-bottom:10px;
+    }
+
+    label{
+        display:block;
+        margin-bottom:6px;
+        font-weight:bold;
+        color:#333;
+        font-size: 20px;
+    }
+
+    input, select, textarea{
+        width:80%;
+        padding:10px;
+        font-size:15px;
+        border:1px solid rgb(126, 126, 206);
+        border-radius:20px;
+        font-size: 20px;
+        background: #abcbea;
+    }
+
+    textarea{
+        resize:none;
+    }
+
+    ::placeholder{
+        color:black;
+    }
+
+    .btn-group{
+        display:flex;
+        gap:15px;
+        margin-top:20px;
+    }
+
+    .btn-group input{
+        flex:1;
+        padding:12px;
+        border:none;
+        border-radius:6px;
+        font-size:16px;
+        cursor:pointer;
+        color:white;
+    }
+
+    .submit-btn{
+        background:#5da2e7;
+    }
+
+    .reset-btn{
+        background:#53b6eb;
+    }
+
+    .submit-btn:hover{
+        background:#abcbea;
+    }
+
+    .reset-btn:hover{
+        background:rgb(193, 193, 245)
+    }
+
+    .back-link{
+        text-align:center;
+        margin-top:20px;
+    }
+
+    .back-link a{
+        text-decoration:none;
+        color:#003366;
+        font-weight:bold;
+    }
+    
+     footer {
+            background: #0a11e3;
+            text-align: center;
+            padding:30px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+    
+
+         
+   
+         

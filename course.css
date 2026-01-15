@@ -1,0 +1,102 @@
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+        min-height:100vh;
+    }
+   
+
+header {
+    background: rgb(94, 66, 255);
+    padding: 20px 0;
+}
+
+
+    nav ul{
+        list-style:none;
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        padding:15px;
+    }
+
+    nav ul li a{
+        color:white;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:bold;
+        padding:8px 14px;
+        border-radius:4px;
+    }
+
+    nav ul li a:hover{
+            text-decoration:underline;
+        }
+
+    
+    .course-form{
+        width:80%;
+        max-width:700px;
+        background:white;
+        margin:40px auto;
+        padding:30px;
+        border-radius:8px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1{
+        text-align:center;
+        margin-bottom:5px;
+        color:#333;
+    }
+
+    h3{
+        text-align:center;
+        color:#666;
+        font-weight:normal;
+        margin-bottom:20px;
+    }
+
+    hr{
+        margin-bottom:25px;
+    }
+    footer{
+         background: #0a11e3;
+        text-align: center;
+        padding: 30px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 0.9rem;
+        color: white
+    }
+
+    .form-group{
+        margin-bottom:10px;
+        background:rgb(197, 230, 243);
+        padding:15px;
+        border-radius:5px;
+    }
+
+    .form-group h2{
+    
+        font-size:22px;
+        text-decoration:underline;
+        margin-bottom:10px;
+    }
+
+    p, li{
+        color:#333;
+        line-height:1.6;
+        font-size:15px;
+    }b
+
+    ul{
+        margin-left:20px;
+    }
